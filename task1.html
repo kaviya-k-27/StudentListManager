@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student List Manager</title>
+    <link rel="stylesheet" href="task.css"type="text/css" >
+</head>
+<body>
+    <div class="maindiv">
+        <h1>Student List Manager</h1>
+        <div class="add">
+           <h3>Add New Student : </h3> 
+            <input type="text" id="sname" placeholder="Enter Student Name">
+            <button onclick="AddStudent()">Add Student</button>
+        </div>
+        <div class="sort">
+           <h3>Filter Students : </h3> 
+            <input type="text" placeholder="Type to filter names...">
+            <br>
+            <br>
+            <button onclick="az()">Sort A-Z</button>
+            <button onclick="za()">Sort Z-A</button>
+        </div>
+            <div class="addoutput">
+           <h3>Current Students : </h3> 
+           <div class="output">
+            <b id="output"></b>
+           </div>
+        </div>
+    </div>
+    <script src="task1.js">
+    </script>
+</body>
+</html>

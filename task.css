@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+  body{
+ background-color: rgb(206, 206, 206);
+}
+        .maindiv{
+                text-align: center;
+                border-radius: 10px;
+                background-color:white;
+                width:500px;
+                margin-left:380px;
+                height:auto;
+                margin-top: 20px;
+                padding-block:30px;
+        } 
+        .add,.sort,.addoutput{
+            background-color: rgb(174, 248, 248);
+            border-radius: 10px;
+            /* height:auto; */
+            padding:12px;
+            width:400px;
+            margin-left:50px;
+            margin-top: 10px;
+            margin-top: 20px;;
+        }
+            .add h3, .addoutput h3{
+                margin-right: 200px;
+            }
+            .sort h3{
+                margin-right: 220px;
+            }
+        button{
+            margin-left:70px;
+            padding:10px;
+            border-radius: 5px;
+              /* border:1px solid black; */
+              color:white;
+              background-color: blue;
+              font-weight: bold;
+              border: none;
+        }
+        input{
+           padding:8px;
+           margin-left:5px;
+           border-radius: 5px;
+           border:none;
+           width:190px;
+           margin-top: 10px;
+        }
+.sort button{
+    margin-left:30px;
+    margin-right: 20px;
+    background-color: blueviolet;
+     width:130px;
+}
+.sort input{
+    margin-right:160px;
+    width: 360px;
+   
+}
+.add{
+    background-color: rgba(77, 79, 224, 0.4);
+    border:1px solid rgba(77, 79, 224, 0.4);
+}
+.sort{
+    background-color: rgba(120, 250, 120, 0.4);
+      border:1px solid rgba(120, 250, 120, 0.4);
+}
+.addoutput{
+    background-color: rgba(199, 198, 198, 0.4);
+    border:1px solid rgba(219, 219, 219, 0.4);
+}
+ #output button{
+    background-color: red;
+ }
+#output{
+    text-transform: uppercase;
+}
+.output {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
